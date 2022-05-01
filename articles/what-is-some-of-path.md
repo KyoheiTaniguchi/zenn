@@ -3,7 +3,7 @@ title: "[Flutter]相対パスと絶対パスの違い、使い分け"
 emoji: "🛣"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["flutter", "パス"]
-published: true
+published: false
 ---
 
 # 目次
@@ -36,7 +36,7 @@ import 'package:flutter/material.dart';
 https://www.ycomps.co.jp/staffblog/16101
 
 ファイルの場所が変わらなかったりすることが決まっている場合は
-作業負担を軽くするためにも相対パスの使用が良さそうです。
+PCの処理を軽くするためにも相対パスの使用が良さそうです。
 
 -----
 ## 3. 絶対パスとは？
@@ -50,7 +50,6 @@ https://www.ycomps.co.jp/staffblog/16101
 
 結論、外部からパッケージなどをインストールしたり、外部サイトへのアクセスをする場合は絶対パスを使いましょう。
 逆に、内部だけでデータ取得したりするだけであれば、相対パスの使用が望ましいです。
-
 
 簡単ですが以上です！👍
 
